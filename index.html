@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>📋 Gerenciador de Tarefas Full-Stack</h1>
+    </header>
+    <main>
+        <section id="cadastro">
+            <h2>Adicionar Nova Tarefa</h2>
+            <form id="form-tarefa">
+                <input type="text" id="titulo" placeholder="Título" required>
+                <textarea id="descricao" placeholder="Descrição"></textarea>
+                <button type="submit">Salvar Tarefa</button>
+            </form>
+        </section>
+
+        <section id="lista">
+            <h2>Tarefas Pendentes</h2>
+            <div id="tarefas-container">
+                </div>
+        </section>
+
+        <div id="react-root"></div>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 Projeto Web II</p>
+    </footer>
+
+    <script src="../react-component/dist/assets/js/main.js"></script>
+    <script src="js/main.js"></script>
+    <script src="node.js"></script>
+</body>
+</html>
